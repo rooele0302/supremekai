@@ -67,7 +67,7 @@ body {
 
 #matrix-entrance.exit {
   opacity: 0;
-  transform: scale(1.1);
+  transform: scale(2);
   pointer-events: none;
 }
 
@@ -884,6 +884,25 @@ body {
 /* ========================================
    CONTACT
    ======================================== */
+#contact {
+  position: relative;
+}
+
+#game-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+#contact .section-inner {
+  position: relative;
+  z-index: 1;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
