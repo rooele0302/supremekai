@@ -9,12 +9,12 @@
 (function () {
   // ==================== TYPING ANIMATION ====================
   const phrases = [
-    'Cybersecurity Analyst',
-    'Cloud Security Engineer',
-    'Software Developer',
-    'Incident Handler',
-    'DevSecOps Enthusiast',
-    'Threat Hunter',
+    'Software Engineer',
+    'Cybersecurity Professional',
+    'Cloud Engineer',
+    'Machine Learning Enthusiast',
+    'Full-Stack Developer',
+    'Technical Support Specialist',
   ];
 
   let phraseIdx = 0;
